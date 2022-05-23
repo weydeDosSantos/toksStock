@@ -60,7 +60,7 @@ public class Steps {
 	public void validar_o_texto(String arg1) throws Throwable {
 		m.pausa(15000);
 		m.scroll2(e.getBtnFecharPedido());
-		m.pausa(5000);
+		m.pausa(4000);
 		m.validar("Calcule as opções de frete e retirada", e.getBtnFecharPedido());
 		m.pausa(5000);
 	}
